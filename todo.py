@@ -4,8 +4,8 @@ date = str(datetime.datetime.now().date())
 
 
 # print(date.date())
-TODOPATH  = 'PATH/todo.txt'
-DONEPATH = 'PATH/done.txt'
+TODOPATH  = 'todo.txt'
+DONEPATH = 'done.txt'
 
 tasks_todo = len(list(open(TODOPATH,'r')))
 tasks_done = int(len(list(open(DONEPATH,'r')))/2)
